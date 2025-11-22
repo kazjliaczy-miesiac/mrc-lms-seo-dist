@@ -1,3 +1,178 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6b319c19d788b5aafb3c1618da69ee80c3c834a3e2b64f1dd72068bb454893f8
-size 11313
+<div role="main"><div class="box py-3 generalbox center clearfix"><div class="no-overflow"><p dir="ltr" style="text-align: left;"></p><p><strong><span lang="EN-US">TUNING
+IN</span></strong></p>
+
+<p><strong><span lang="EN-US">TASK
+1</span></strong></p>
+
+<p><strong><span lang="EN-US">Label this diagram of a
+computer system with these terms</span></strong></p>
+
+<div><img src="assets/low-level-systems/1.png" alt="" role="presentation" class="img-fluid"><br>
+
+</div>
+
+<!--[if !supportTextWrap]--><p align="center"><span lang="EN-US">For example: Hard disk, floppy disk, optical
+disc, CD-ROM</span></p><p><strong><span lang="EN-US">TASK
+2</span></strong></p>
+
+<p><strong><span lang="EN-US">Work in pairs. What other
+examples of input devices, output devices, and storage devices can you add to
+the diagram?</span></strong></p><p data-comment-id="182"><strong>Task 3&nbsp;</strong></p><p data-comment-id="182"><strong>Study this diagram of the Central Processing Unit. Answer these questions.</strong></p><p data-comment-id="183">1 What does ALU mean?</p><p data-comment-id="184">2 What is a&nbsp;<i>register?</i></p><p data-comment-id="185">3 What does the&nbsp;<i>control unit&nbsp;</i>do?</p><p data-comment-id="186"></p><img src="assets/low-level-systems/2.png" alt="" role="presentation" class="img-fluid"><br><br><p><b><span lang="EN-US">TASK 4</span></b></p>
+
+<p><b><span lang="EN-US">Look at the diagram in Task 3
+again. Try to answer these questions.</span></b></p>
+
+<p><b><span lang="EN-US">1</span></b><span lang="EN-US"> What is the function of
+buses?</span></p>
+
+<p><b><span lang="EN-US">2</span></b><span lang="EN-US"> Which buses are <i>bidirectional</i>?</span></p>
+
+<p><b><span lang="EN-US">3</span></b><span lang="EN-US"> What kind of information is
+carried by the data bus?</span></p>
+
+<p><b><span lang="EN-US">4</span></b><span lang="EN-US"> What does <i>unidirectional</i> mean?</span></p><p><b><span lang="EN-US">TASK 5</span></b></p>
+
+<p><b><span lang="EN-US">READING: THE MACHINE CYCLE</span></b></p>
+
+<p><b><span lang="EN-US">Study the diagram of the
+machine cycle. Answer these questions</span></b><span lang="EN-US">.</span></p>
+
+<p><b><span lang="EN-US">1</span></b><span lang="EN-US"> How many steps are there in
+the machine cycle?</span></p>
+
+<p><b><span lang="EN-US">2</span></b><span lang="EN-US"> What are the Fetch and Decode
+steps together called?</span></p>
+
+<b><span lang="EN-US">3</span></b><span lang="EN-US"> Which steps together are called E-time?<br><p><b><span lang="EN-US">4</span></b><span lang="EN-US"> Where does the Decode step
+happen?</span></p><br></span><img src="assets/low-level-systems/3.png" alt="" role="presentation" class="img-fluid"><br><p><b><span lang="EN-US">TASK 6</span></b></p>
+
+<p><b><span lang="EN-US">Read this text quickly to
+check your answers to Task 5.</span></b></p>
+
+<p><span lang="EN-US">How the CPU executes program instructions</span><span lang="EN-US"></span></p>
+
+<p><span lang="EN-US">Let us examine the way the central processing unit, in
+association with memory, executes a computer program. Many personal computers
+can execute instructions in less than one millionth of a second, whereas
+supercomputers can execute instructions in less than </span><span lang="EN-US">one-billionth</span><span lang="EN-US"> of a second.</span></p>
+
+<p><span lang="EN-US">Before
+an instruction can be executed, program instructions and data must he placed
+into memory from an Input device or a secondary storage device. The data will
+probably make a temporary slop in a register. As Figure 1 shows, once the
+necessary data and instruction are in memory, the central processing unit
+performs the following four steps for each instruction<sup>1</sup></span></p>
+
+<p><!--[if !supportLists]--><span lang="EN-US">1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><!--[endif]--><span lang="EN-US">&nbsp;The control
+unit </span><span lang="EN-US">fetches</span><span lang="EN-US"> (gets) the instruction from
+memory.</span></p>
+
+<p><!--[if !supportLists]--><span lang="EN-US">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><!--[endif]--><span lang="EN-US">&nbsp;The control
+unit </span><span lang="EN-US">decodes</span><span lang="EN-US"> the instruction (decides what
+it means) and directs that the necessary data be moved from memory to the
+arithmetic/logic unit. These first two steps together are called </span><span lang="EN-US">instruction
+lime,</span><span lang="EN-US"> or I</span><span lang="EN-US">-time</span><span lang="EN-US"></span></p>
+
+<p><!--[if !supportLists]--><span lang="EN-US">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><!--[endif]--><span lang="EN-US">&nbsp;The
+arithmetic/logic unit </span><span lang="EN-US">executes</span><span lang="EN-US"> the arithmetic or
+logical instruction. That is, the ALU is given control and performs the actual
+operation on the data.</span></p>
+
+<p><!--[if !supportLists]--><span lang="EN-US">4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><!--[endif]--><span lang="EN-US">&nbsp;The
+arithmetic/logic unit </span><span lang="EN-US">stores</span><span lang="EN-US"> the result of this operation
+in memory or in a register.</span></p>
+
+<p><span lang="EN-US">Steps
+3 and 4 together are called </span><span lang="EN-US">execution time,</span><span lang="EN-US"> &nbsp;or E</span><span lang="EN-US">-time.</span><span lang="EN-US"> The control unit
+eventually directs memory lo release the result to an output device or a
+secondary storage device. The combination of </span><span lang="EN-US">I </span><span lang="EN-US">time and </span><span lang="EN-US">E </span><span lang="EN-US">time is called the </span><span lang="EN-US">machine
+cycle.</span></p>
+
+<p><b><span lang="EN-US">TASK 7</span></b></p>
+
+<p><b><span lang="EN-US">Read the text again to find
+the answers to these questions.</span></b></p>
+
+<p align="left"><b><span lang="EN-US">1</span></b><span lang="EN-US"> What must be put into memory before an instruction </span><span lang="EN-US">an instruction
+can be executed</span><span lang="EN-US">?</span><span lang="EN-US"></span></p>
+
+<p align="left"><b><span lang="EN-US">2</span></b><span lang="EN-US"> Where will the data he stored temporarily?</span><span lang="EN-US"></span></p>
+
+<p align="left"><b><span lang="EN-US">3</span></b><span lang="EN-US"> What operation does the control unit perform on the data?</span><span lang="EN-US"></span></p>
+
+<p align="left"><b><span lang="EN-US">4</span></b><span lang="EN-US"> When does the ALU store the results of its operations?</span><span lang="EN-US"></span></p>
+
+<p align="left"><b><span lang="EN-US">5</span></b><span lang="EN-US"> What happens to the results eventually?</span><span lang="EN-US"></span></p>
+
+<p align="left"><b><span lang="EN-US">6</span></b><span lang="EN-US"> What is the machine cycle?</span><span lang="EN-US"></span></p><table width="455" cellpadding="3" cellspacing="0" data-comment-id="226"><tbody><tr><td width="447" height="27" valign="top"><p>Language work: Contrast</p></td></tr><tr><td width="447" height="17" valign="top"><p>Study these pairs of statements.</p></td></tr><tr><td width="447" height="90" valign="top"><p>1&nbsp;<i>The data bus is bidirectional. The address bus is unidirectional.</i></p><p><i>2&nbsp;</i><i>Registers hold data immediately required.</i></p><p><i>Main memory stores data required in the near future.</i></p><p>3 PCs&nbsp;<i>can process in a millionth of a second.</i></p><p><i>Supercomputers can process in a billionth of a second.</i></p></td></tr><tr><td width="447" height="13" valign="top"><p>Each pair contains a contrast. We can show this by linking them as follows:</p></td></tr><tr><td width="447" height="85" valign="top"><p>1&nbsp;<i>The data bus is bidirectional,&nbsp;</i><i><b>whereas&nbsp;</b></i><i>the address bus is unidirectional.</i></p><p><i>2&nbsp;</i><i>Registers hold data immediately required.&nbsp;</i><i><b>In contrast,&nbsp;</b></i><i>main memory stores data required in the near future.</i></p><p>3&nbsp;<i>PCs can process in a millionth of a second,&nbsp;</i><i><b>but&nbsp;</b></i><i>supercomputers can process in a billionth of a second.</i></p></td></tr></tbody></table><br><p><b><span lang="EN-US">TASK
+11</span></b><span lang="EN-US"></span></p>
+
+<p><b><span lang="EN-US">Link
+each of these pairs of contrasting statements using <i>whereas</i>, <i>in contrast </i>or <i>but.</i></span></b></p>
+
+<p align="left"><span lang="EN-US">1</span><b><span lang="EN-US">.</span></b><span lang="EN-US"> Dot
+matrix printers are noisy. Laser printers are quiet.</span><span lang="EN-US"></span></p>
+
+<p align="left"><span lang="EN-US">2</span><b><span lang="EN-US">.</span></b><span lang="EN-US"> Floppy disks store small amounts of data. Hard disks store
+large amounts of data.</span><span lang="EN-US"></span></p>
+
+<p align="left"><span lang="EN-US">3</span><b><span lang="EN-US">.</span></b><span lang="EN-US"> Handheld computers lit into your pocket. Supercomputers
+occupy a whole room.</span><span lang="EN-US"></span></p>
+
+<p align="left"><span lang="EN-US">4</span><b><span lang="EN-US">.</span></b><span lang="EN-US"> High-level languages are easy to understand. Machine code is
+very difficult to understand.</span><span lang="EN-US"></span></p>
+
+<p align="left"><span lang="EN-US">5</span><b><span lang="EN-US">.</span></b><span lang="EN-US">
+Basic is a simple language. C++ is complex.</span><span lang="EN-US"></span></p>
+
+<p align="left"><span lang="EN-US">6</span><b><span lang="EN-US">.</span></b><span lang="EN-US"> Modern computers are powerful and relatively cheap. Older
+computers were less powerful and quite expensive.</span><span lang="EN-US"></span></p>
+
+<p align="left"><span lang="EN-US">7</span><b><span lang="EN-US">.</span></b><span lang="EN-US"> An analyst analyses problems and finds solutions. A
+programmer turns these solutions into computer programs.</span><span lang="EN-US"></span></p>
+
+<p><span lang="EN-US">8. A graphic package produces
+images and designs. A word processor produces texts.</span></p>
+
+<p><b><span lang="EN-US">TASK
+12</span></b></p>
+
+<p><b><span lang="EN-US">PROBLEM-SOLVING</span></b></p>
+
+<p><span lang="EN-US">Work in pairs, A and B,
+Explain to your partner how to convert a number from one system to another. You
+can write down the steps and show them to your partner, but you must explain
+each step in English.</span></p>
+
+<p><b><span lang="EN-US">TASK
+13</span></b></p>
+
+<p><span lang="EN-US">Describe how an interrupt
+works by linking these pairs of sentences using suitable time words.</span></p>
+
+<p><span lang="EN-US">1. A printer runs out of
+paper.</span></p>
+
+<p><span lang="EN-US">An interrupt carries a signal
+to the CPU.</span></p>
+
+<p><span lang="EN-US">2. The CPU receives the
+signal,</span></p>
+
+<p><span lang="EN-US">The CPU interrupts its tasks.</span></p>
+
+<p><span lang="EN-US">3. The CPU saves its current
+status in a special area of memory.</span></p>
+
+<p><span lang="EN-US">The CPU sends a message to the
+user.</span></p>
+
+<p><span lang="EN-US">4. The user reloads the paper
+tray,</span></p>
+
+<p><span lang="EN-US">The processor returns to its
+previous state</span></p><br><p></p></div></div></div>
