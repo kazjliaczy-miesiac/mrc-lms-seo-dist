@@ -77,11 +77,11 @@ $outputPath = [string](Join-Path -Path $RootPath -ChildPath $outputRelative)
 ### Helper functions
 function Remove-Kebab
 {
-	param([Parameter(Position=0)] [string]$ProcessName)
+	param([Parameter(Mandatory=$true)] [string]$ProcessName)
 
 	# Graceful exiting (`$word.Quit()` + a bunch of system calls) is too
-	# much of a hassle if you really want to exit the application, so good
-	# old ultraviolence is our best friend here.
+	# much of a hassle if you really want to exit the application, so the
+	# good old ultraviolence is our best friend here.
 	Get-Process -Name $ProcessName | Stop-Process -Force
 }
 
