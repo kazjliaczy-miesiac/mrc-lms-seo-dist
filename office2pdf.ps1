@@ -93,9 +93,9 @@ function Write-LogForFile
 
 	if ($In -xor $Out) {
 		if ($In) {
-			$string = "CONVERTING"
+			$string = "Converting"
 		} elseif ($Out) {
-			$string = "CONVERTED"
+			$string = "Converted"
 		}
 
 		Write-Host "$string`:`t$FileName"
@@ -233,7 +233,7 @@ function Convert-Office2Pdf
 	param([string]$RootPath,
 	      [switch]$ForceRecompile)
 
-	Write-Host "Scanning: $RootPath"
+	Write-Host "Scanning:`t$RootPath"
 	$files = Get-FilesToConvert -RootPath $RootPath -ForceRecompile:$ForceRecompile
 
 	$wordFiles = $files | Where-Object {
